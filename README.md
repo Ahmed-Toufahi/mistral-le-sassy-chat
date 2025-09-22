@@ -7,7 +7,7 @@ An AI-powered cat that lives on your webpage. Chat with Mistral's mascot and wat
 ### The Cat's Wisdom
 *When asked about the meaning of life, our sassy cat has some profound thoughts to share:*
 
-![Meaning of Life](assets/meaning_of_life.png)
+![Meaning of Life](assets/meaning_of%20_life.png)
 
 ### More Interactions
 
