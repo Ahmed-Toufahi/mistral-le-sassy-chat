@@ -8,10 +8,8 @@ from config.settings import settings
 from core.websocket import websocket_manager
 from api.cat_routes import router as cat_router
 
-# Create FastAPI application
 app = FastAPI(title="Mistral le Chat Backend", version="1.0.0")
 
-# Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
     allow_origins=settings.CORS_ORIGINS,
@@ -20,7 +18,6 @@ app.add_middleware(
     allow_headers=settings.CORS_HEADERS,
 )
 
-# Include routers
 app.include_router(cat_router)
 
 @app.on_event("startup")
