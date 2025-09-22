@@ -56,10 +56,11 @@ For local development without Docker, follow these steps:
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd Mistral-Project
+cd mistral-le-sassy-chat
+
 
 # Or if you already have the project locally
-cd Mistral-Project
+cd mistral-le-sassy-chat
 ```
 
 ### Step 2: Environment Configuration
