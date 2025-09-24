@@ -8,11 +8,10 @@ export default function Instructions() {
         <p><strong>Try saying:</strong></p>
         <ul className="list-disc list-inside space-y-1 text-xs">
           <li>"Hello kitty!"</li>
-          <li>"Come here"</li>
-          <li>"Play with me"</li>
-          <li>"Sit down"</li>
+          <li>"Move up"</li>
+          <li>"Move right"</li>
           <li>"What are you thinking?"</li>
-          <li>"Show me a trick"</li>
+          <li>"What's the meaning of life?"</li>
         </ul>
         <p className="mt-2 text-xs text-gray-500">
           This friendly cat loves to follow your commands and will move around when you ask!
